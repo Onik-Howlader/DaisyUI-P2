@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google font link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+     <!-- tailwinds link -->
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <!-- DaisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Justice</title>
+
+        <style type="text/tailwindcss">
+            @theme {
+                --color-clifford: #da373d;
+                --color-justice-text1: #707070;
+                --color-justice-bg1: #b68c5a;
+              }
+            </style>
+            <style>
+                .justice-primary1{
+                    font-family: "EB Garamond", serif;
+                }
+                .justice-primary2{
+                      font-family: "Poppins", sans-serif;
+                }
+            </style>
+</head>
+<body>
+    <header class="container md:w-max m-auto">
+        <nav>
+            <div class="navbar bg-base-100 shadow-sm lg:space-x-80 lg:flex">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            <li><a>Item 1</a></li>
+                            <li>
+                                <a>Parent</a>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Item 3</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="./images/logo2.png" alt="">
+                    </div>
+                </div>
+                <!-- nav -->
+                <div class="navbar-center hidden lg:flex space-x-10 text-justice-text1">
+                    <ul class="menu menu-horizontal px-1 space-x-10">
+                        <li><a>Home</a></li>
+                        <!-- details 1 -->
+                        <li>
+                            <details>
+                                <summary>Service</summary>
+                                <ul class="p-2 bg-base-100 w-40 z-1">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <!-- details 1 -->
+                        <!-- details 2 -->
+                        <li> 
+                            <details>
+                                <summary>Cases</summary>
+                                <ul class="p-2 bg-base-100 w-40 z-1">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <!-- details 2 -->
+                        <!-- details 3 -->
+                        <li>
+                            <details>
+                                <summary>Blog</summary>
+                                <ul class="p-2 bg-base-100 w-40 z-1">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <!-- details 3 -->
+                        <!-- details 4 -->
+                        <li>
+                            <details>
+                                <summary>Contacts Us</summary>
+                                <ul class="p-2 bg-base-100 w-40 z-1">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <!-- details 4 -->
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn px-2 py-5 lg:px-10 lg:text-lg bg-justice-bg1 text-white text-sm">Free-Consultation</a>
+                </div>
+
+            </div>
+        </nav>
+
+        <!--make banner content -->
+        <div class="hero rounded-[8px] lg:h-[600px]"
+            style="background-image: url(./images/banner.png);">
+            <div class="hero-overlay opacity-50 rounded-[8px]"></div>
+            <div class="hero-content text-neutral-content text-center">
+                <div class="max-w-md">
+                    <h1 class="mb-5 text-4xl font-bold justice-primary1 lg:mt-[100px]">We Provide Effective Legal Solutions</h1>
+                    <p class="mb-5 justice-primary2 lg:mt-[25px]">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                        by injected humour.
+                    </p>
+                    <div class="lg:flex gap-10 lg:mt-[30px] lg:mb-[100px]">
+                        <label class="input">
+                            <svg class="h-[1em] text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none" stroke="currentColor">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <path d="m21 21-4.3-4.3"></path>
+                                </g>
+                            </svg>
+                            <input class="text-blue-600" type="search" required placeholder="Search your services"/>
+                        </label>
+                        <button class="btn px-10 py-5 border-0 bg-justice-bg1 text-white text-lg mt-[10px]">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
